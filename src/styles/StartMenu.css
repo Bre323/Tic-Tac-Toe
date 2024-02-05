@@ -1,0 +1,42 @@
+:root {
+    --menu-color: #0a0a0a;
+    --shadow: #2e2e2e;
+    --bt-color: #dfdfdf;
+}
+
+.start-menu {
+    background-color: var(--menu-color);
+    text-align: center;
+    height: 25%;
+    width: 35%;
+    min-height: 125px;
+    min-width: 200px;
+    border-radius: 25px;
+    padding: 15px;
+    box-shadow: 1px 1px 4px 4px var(--shadow);
+}
+
+.start-menu > h1 {
+    margin-bottom: 25px;
+}
+
+.start-menu > button {
+    background-color: var(--bt-color);
+    height: 50px;
+    width: 100px;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: 0.3s;
+}
+
+.start-menu > button:hover {
+    transform: scale(0.9);
+    opacity: 0.95;
+}
+
+.start-menu > button:active {
+    transform: scale(0.8);
+    opacity: 0.75;
+}

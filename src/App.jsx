@@ -1,12 +1,11 @@
-import { useState } from 'react'
-import './App.css'
+import React from "react";
+import StartMenu from './components/StartMenu.jsx';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-    </>
+    <div className="wrapper">
+      <StartMenu />
+    </div>
   )
 }
 

@@ -1,11 +1,11 @@
 import React from "react";
 import '../styles/StartMenu.css';
 
-const StartMenu = () => {
+const StartMenu = ({ handleClick }) => {
     return (
-        <div className="start-menu">
+        <div id="start-menu" className="start-menu">
             <h1>Tic Tac Toe</h1>
-            <button>Start</button>
+            <button onClick= { handleClick }>Start</button>
         </div>
     )
 }

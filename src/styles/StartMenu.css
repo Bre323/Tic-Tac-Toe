@@ -5,6 +5,7 @@
 }
 
 .start-menu {
+    display: none;
     background-color: var(--menu-color);
     text-align: center;
     height: 25%;

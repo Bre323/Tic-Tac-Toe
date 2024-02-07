@@ -1,6 +1,6 @@
 .game-ui {
     background-color: #4d4d4d;
-    display: flex;
+    display: none;
     justify-content: space-between;
     align-items: center;
     height: 80%;
@@ -40,6 +40,9 @@
 
 .board-square {
     background-color: #74c0fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .board-symbol {

@@ -94,7 +94,11 @@ function App() {
   };
 
   const handleReset = () => {
-    
+    for(let i = 0; i < board.length ; i++) {
+      document.getElementById(`board-square-${i + 1}`).innerHTML = "";
+      board[i] = "";
+    }
+    console.log(board);
   }
 
   return (

@@ -1,6 +1,7 @@
 import React from "react";
 import StartMenu from './components/StartMenu.jsx';
 import Game from './components/Game.jsx';
+import Result from "./components/Result.jsx";
 
 let board = ["", "", "", "", "", "", "", "", ""];
 
@@ -92,10 +93,15 @@ function App() {
     gameUI.style.display = "flex";
   };
 
+  const handleReset = () => {
+    
+  }
+
   return (
     <div className="wrapper">
       <StartMenu handleClick= { handleClick } />
       <Game selectSquare={ selectSquare } />
+      <Result handleReset={ handleReset } />
     </div>
   )
 };

@@ -4,24 +4,23 @@
     --bt-color: #dfdfdf;
 }
 
-.start-menu {
-    display: none;
+.result {
     background-color: var(--menu-color);
     text-align: center;
     height: 25%;
-    width: 35%;
-    min-height: 125px;
-    min-width: 200px;
+    width: 50%;
+    min-height: 160px;
+    min-width: 320px;
     border-radius: 25px;
     padding: 15px;
     box-shadow: 1px 1px 4px 4px var(--shadow);
 }
 
-.start-menu > h1 {
+.result > h1 {
     margin-bottom: 25px;
 }
 
-.start-menu > button {
+.result > button {
     background-color: var(--bt-color);
     height: 50px;
     width: 100px;
@@ -32,12 +31,12 @@
     transition: 0.3s;
 }
 
-.start-menu > button:hover {
+.result > button:hover {
     transform: scale(0.9);
     opacity: 0.95;
 }
 
-.start-menu > button:active {
+.result > button:active {
     transform: scale(0.8);
     opacity: 0.75;
 }
